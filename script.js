@@ -57,7 +57,7 @@ const board = (player, computer) => {
 
 // function that starts the game and does the loop of the rounds
 const game = () => {
-    for (i = 0; i < turns.length; i++) {
+    for (i = 0; i < 5; i++) {
         const playerSelection = (prompt("Rock, paper or scissors?")).toLowerCase();
         const computerSelection = computerPlay();
         console.log(`ROUND [${i + 1}]`);
