@@ -1,33 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
 body {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 50vw;
+    height: 100vh;
     background-color: #000000;
 }
 
-h1, button, #result {
+h1,
+button,
+.scoreboard,
+#round-result,
+#result {
+    color: #00E4FF;
     font-family: 'Audiowide', cursive;
-    color: #FFE905;
 }
 
 h1 {
-    font-size: 70px;
+    text-align: center;
+    font-size: 56px;
+    background: -webkit-linear-gradient(#9500F5, #FF009E, #FFE000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-button {
-    margin: 120px 5px;
-    width: 180px;
-    height: 90px;
-    border: solid #FF00A6 8px;
-    border-radius: 8px;
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    width: 70%;
+}
+
+#round-result {
     text-align: center;
-    font-size: 30px;
-    background-color: #5400C9;
-    color: #FFE905;
-    
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons input {
+    width: 20%;
 }
 
 #result {
-    font-size: 30px;
+    text-align: center;
+    margin: 56px;
+    font-size: 40px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer .github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+}
+
+footer .github a {
+    margin: 0 6px;
+    text-decoration: none;
+    color: #00E4FF;
+}
+
+footer img {
+    width: 2em;
+    height: auto;
+}
