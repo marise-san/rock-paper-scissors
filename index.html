@@ -11,13 +11,32 @@
 </head>
 
 <body>
-    <h1>{ Rock, Paper, Scissors }</h1>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <div class="scoreboard">
+        <div id="player">
+            <p>PLAYER:
+                <span id="player-score">0</span>
+            </p>
+        </div>
+        <div id="cpu">
+            <p>CPU:
+                <span id="cpu-score">0</span>
+            </p>
+        </div>
+    </div>
+    <div id="round-result"></div>
     <div class="buttons">
-        <button value="rock"> Rock </button>
-        <button value="paper"> Paper </button>
-        <button value="scissors"> Scissors </button>
+        <input type="image" value="rock" src="./img/rock.png" alt="hand clipart rock" />
+        <input type="image" value="paper" src="./img/paper.png" alt="hand clipart paper" />
+        <input type="image" value="scissors" src="./img/scissors.png" alt="hand clipart scissors" />
     </div>
     <div id="result"></div>
+    <footer>
+        <div class="github">
+            made by<a href="https://github.com/marise-san">marise-san</a> <img src="./img/Octocat.png"
+                alt="octocat logo" />
+        </div>
+    </footer>
 </body>
 
 </html>
