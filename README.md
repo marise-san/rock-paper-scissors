@@ -15,6 +15,7 @@ It was built with HTML/CSS/JS.
 
 * CSS Flexbox to create layout
 * Git and Github for project management
-* Get random element from an array
-* Methods of Math object
+* How to get random elements from an array
 * Knowledge about DOM manipulation
+* Leanerd about methods of Math object
+
