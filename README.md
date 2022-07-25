@@ -17,4 +17,4 @@ It was built with HTML/CSS/JS.
 * Git and Github for project management.
 * How to get random elements from an array.
 * Knowledge about DOM manipulation.
-* Leanerd about methods of Math object.
+* Learned about methods of Math object.
